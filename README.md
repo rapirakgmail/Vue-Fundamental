@@ -1,4 +1,2 @@
-1.State variable :ref()
-example:
-	  const var1 = ref(0);
-
+1. Stat variable
+2. Default Slot
