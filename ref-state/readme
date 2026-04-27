@@ -1,0 +1,5 @@
+State variable in Vue : Ref()
+1.ตัวแปรที่มีการกำหนดค่าเริ่มต้นด้วย ref()/reactive()  เมื่อค่าขอตัวแปรเปลี่ยนจะมีผลทำให้ ui update 
+2. ref()
+	  const var1 = ref(0);
+     var1.value = 10;
