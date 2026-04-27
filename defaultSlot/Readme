@@ -1,0 +1,5 @@
+
+ Slot
+   เพื่อการ reuse component โดยที่เราสามารถส่ง parameter ที่อยู่ในรูปแบบ  ของ <tag>จาก parent component ไปยัง child component ได้
+    - Default  
+    - Default with parameter 
