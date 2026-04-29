@@ -1,0 +1,23 @@
+reactive state variable
+1. วัตถุประสงค์การสร้างตัวแปรแบบ object เช่นเดียวกับ javascript  โดยข้อมูลในแต่ละ field ภายใน object จะเป็นข้อมูลที่มีความสัมพันธ์กัน
+          //javascript var
+            cost   js_var     = {  id: 1123 , name : 'vue' }
+          //reactive var          
+           const   obj_var      = reactive(
+                                                {  id: 1123 , name : ‘vue’ }
+                                        )
+          //ref var 
+          const  id     = ref( 1123)
+          const  name   = ref('vue')
+
+    วัตถุประสงค์ของ  state  variable : ใช้ร่วมกับ html tag ใน template
+2. การอ้าง value ref vs react variable
+        const  id_var       =  ref( 123 )
+               id.value    =  123
+
+
+        const   obj_var    = reactive( {  id: 1123 , name : ‘vue’ } )
+           obj_var.id = 123
+ 	         obj_var.name = 'vue'
+
+
