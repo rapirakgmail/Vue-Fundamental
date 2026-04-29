@@ -1,0 +1,25 @@
+ตัวแปรใน Vue : Primitive vs State variable
+
+1. Primitive variable data type
+
+            const number_var     = 0
+       
+            let     string_var = ‘my-string’   
+
+            let      obj_var    = {  id: 1123 , name : vue }
+
+ 
+    วัตถุประสงค์ : เพื่อใช้ในการคำนวณ หรือ เก็บค่าทั่วๆในประมวลผล
+
+2. state variable  :   ถูกกำหนดค่าจาก ref()  & reactive()
+
+            const number_var   =  ref( 0 )
+       
+            let     string_var       = ref( ‘my_string’)
+
+            let      react_var        = reactive(
+                                                 {  id: 1123 , name : vue }
+                                                )
+
+
+
