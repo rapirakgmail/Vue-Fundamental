@@ -1,0 +1,36 @@
+1.วัตถุประสงของ defineProps
+  1.parent สามารถส่งข้อมูลได้แก่ ค่า constant, variable , object ไปยัง child component ได้  โดยการส่งข้อมูลมีลักษณะ one-way data flow
+  2.ข้อมูลที่ parent ส่งให้ child ไม่สามารถแก้ไขข้อมูลที่ parent ส่งไม่ให้ได้
+  3.ในมุมมองของ Parent เรียกว่า การกำหนด property ให้กับ child component
+  4.รียกข้อมูลที่รับจาก Parent ว่า ตัวแปร property 
+
+2. ขั้นตอนในการสร้าง Child component ที่รองรับ parameter
+     สร้างตัวแปร property เพื่อรับข้อมูล จาก parent ด้วย คำสั่ง defineProps() เรียกขั้นตอนนี้ว่า “สร้าง property”
+       
+       const props = defineProps({
+        sc_param: String,
+        sparam: String,
+        nparam: Number,
+        oparam: Object
+      })
+  <template>
+      {{ 'sc_param = ' + (props.sc_param + '-abc') }}
+      {{ 'sparam = ' + sparam }}
+ </template>
+
+3. Parent เรียกใช้งาน
+      <Child
+        <!-- "1a1“ : static string -->
+        sc_param="1a1"
+      
+        <!-- "str_var“ string variable -->
+        :sparam="str_var"
+      
+        <!-- "123“ number -->
+        :nparam=“num_var"
+      
+        <!– "obj_var“ object variable -->
+        :oparam="obj_var"
+      />
+
+
