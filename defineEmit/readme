@@ -1,0 +1,22 @@
+1.Vue ไม่มีกลไกลคืนข้อมูลจาก child ไปให้กับ parentโดยตรง  
+2. Vue ใช้เทคนิคการส่ง “event” จาก child component  เพื่อกระตุ้น(triger) ให้ function ที่อยู่ใน parent component รับข้อมูลจาก child โดยคำสั่งใช้ defineEmits
+3. 
+  3.1.Draft Child code
+    const emit =  defineEmits(['f'])
+    function sendDataF1() {
+    count = count +1;
+    emit(‘f’,1)
+  }
+ 3.2. Draft Parent Code
+    function f1_sub(p1){ 
+     // do-some-thing
+    }
+    <Child
+              @f ="f1_sub"
+     </Child> 
+    
+
+
+
+
+
