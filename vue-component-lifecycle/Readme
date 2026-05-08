@@ -1,0 +1,28 @@
+1.กระบวนการ render component ของ VUE
+  แบ่งเป็น 4 Phase
+  Creation Phase: 
+  	Component is initialized, but not yet in DOM
+  Mounting Phase: 
+  	Component is inserted into the DOM
+  Updating Phase: 
+  	Triggered when reactive data changes
+  Unmounting Phase: 
+  	Component is removed from DOM
+
+2.VUE3 Hook Function
+  1.Creation Phase: Component is initialized, but not yet in DOM
+    setup() (Composition API)
+    beforeCreate() (Options API - rarely used now)
+    created() 
+
+2.Mounting Phase: Component is inserted into the DOM
+    onBeforeMount()
+    onMounted()
+
+3.Updating Phase: Triggered when reactive data changes
+    onBeforeUpdate()
+    onUpdated()
+4.Unmounting Phase: Component is removed from DOM
+    onBeforeUnmount()
+  onUnmounted();
+
