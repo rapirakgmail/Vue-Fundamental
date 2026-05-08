@@ -1,16 +1,7 @@
-update UI variable problem ใน onUpdate Hook 
-1.UI variable :
-    คือ ตัวแปรที่ทำมาใช้แสดงข้อมูลใน tag html
-    <!-- count UI varible -->
-    <input v-model="msg" />
-    <h3> {{count}}</h3>  
-2.onUpdated Hook in Vue component
-   ข้อห้าม : update ui variable ใน onUpdate HOOK
-    onUpdated(() => {
-     console.log('4.Updated: '+count.value);
-     count.value++;
-  }) 
- 
+1. Mounting Phase: Component is inserted into the DOM
+    onBeforeMount()/onMounted()
+  Objective: กำหนดค่าเริ่มต้นของระบบ ,เปิดการเชื่อต่อกับ network 	
 
-
-  
+2. Unmounting Phase: Component is removed from DOM
+    onBeforeUnmount()/onUnmounted();
+  Objective: ลบของ compoent,ปิดการเชื่อมต่อกับ network
