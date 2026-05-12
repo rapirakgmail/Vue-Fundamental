@@ -1,4 +1,6 @@
 
+https://play.vuejs.org/#eNqNVFFv2jAQ/isn96EvLRTYHpamSGtVaZumbdr6mJdgO4mLY0e2Q4MQ/31nOwQYLZ1Awr77vvPn+85syOemGa1aThKSWmpE48By1zbzTIm60cbBBgwvYAuF0TVcIvRySN3rrg+Pxgvd+TqYzBRkKh3HalgHN47Xjcwdxx1AitA5pJ5xsP8uFIfJSdivcF3NwLq15HcZoVpqk6AodpuRuQy0dFzNInbgH9On79Gne+zkX+yaS6lfSsO5OuJMjo9MxwfX9B9yRZylWhWiHD1brbDHG0/whetGSG5+Nk5oZTOSQMj4XO4P+xZizrT8ahenFafLV+LPtvOxjPwy3HKz4hkZci43JXcx/fjnB+9wPSRrzVqJ6DPJ39xq2XqNEXbfKoayD3BB7dcwDkKVT/axc1zZ3aW8UI/cBnxGcEAezlx9L3c2+hB4mdpiF/vZOpnRc0PGxAqozK1FH5GPvsVTniphAb85sNxWnPXugsfEAbBSO1/a/0R/sdapv2mYElyOkBrvUKN+oVB90936/UIbxnGApk23O+2iyCmdfIzpnC5Lo7Gn1/2kXRS8+ERnIdvkjGFLkX1zVO7a5Ey0NoHJLv4imKsSKITDOgr77zCMrcM79BKxh7p1b7URayDPOqhtCXfowxffkviyHyohWUYGCEW5DkGTm/OP/G0DXjUhPK7Bg2ABJPXa4VAiHXVlBPfh8PAu8RcL7k36f4+ACYuAdQILqekyNPA9ow6cSqLUGB4s6q046nn/H7D9C2PGyRQ=
+
  Slot
    เพื่อการ reuse component โดยที่เราสามารถส่ง parameter ที่อยู่ในรูปแบบ  ของ <tag>จาก parent component ไปยัง child component ได้
     - Default  
