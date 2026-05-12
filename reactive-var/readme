@@ -1,3 +1,7 @@
+Online Code
+https://play.vuejs.org/#eNqNU01P4zAQ/SsjXwqiStTtnqpQLct2pe6BReXjZAmFxC0uiW35I1SK8t8Z22kbUIW4tJ55b57fjCctuVIqaRwjM5KZQnNlwTDr1JwKXiupLbSg2XqMP3lhecOgg7WWNYywaEQFFYUUxgIvn5pcw6Unn01+TM+PkHzeHrCocdZSAVgygwlSxz4Qec1me9EuVK+dQLYU4FSZW7ZC4XPoK71g0uSVYyj7IbyACQqcrO8v70V6WwkvUWIQBIEj7I0hwTvrhcrRRbwiS+PEcFYYWFarCmGMALKSN+GAx5fpfLX4m6X432fUfPlnBm27n1rXZamfeACfnbVo+ldR8eL1kpJD95T0FICHkAOfjEVprApO4qV6cPYGrq7vl4+Lky4GzX9wouY34VUGlDCNb9mNwz7luUc+G/dBnFqWDmZJxsQaXKQ13yRbIwUuang+SgpZK14x/V/5VzaUoNOoSkleVfLtX8hZ7VhYsVDzworXE/mt2fkcJbeaGaa98QNmc71hNsKLuxu2w/MBrGXpKmR/Aa6YkZXzHiPttxMl2h7wgttl+Ny42Nybxc4yYfZNeaOe2QU+JbiJ11+0frQ7TX6GOlxW0r0Dh1ZHaQ==
+
+
 reactive state variable
 1. วัตถุประสงค์การสร้างตัวแปรแบบ object เช่นเดียวกับ javascript  โดยข้อมูลในแต่ละ field ภายใน object จะเป็นข้อมูลที่มีความสัมพันธ์กัน
           //javascript var
