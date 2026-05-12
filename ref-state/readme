@@ -1,3 +1,7 @@
+Online Code:
+https://play.vuejs.org/#eNqNU0tu2zAQvcqAKxsWpMTtypWNfpBFu2iLtsiKG4WiZSYUKZCUbEDQtgfoEXuSDoexI7RFkI09nHnz5s0jNbJ3XZcPvWQbVnrhVBfAy9B3O25U21kXYAQn9xkcqyAOGcaVCGqQMMHe2RY4w2bO3nDDTVGAD1WQMFROVXdaciOs8SGer2EbeRZXy0eosa6t9AyqJQHXCLxCDJLFSdjPzb43FIIy4ha5FksYuQHizYdK93K1wpYpMv+FXc+wa0IBRFFWy1zbZoH6sbDhLCNEVEc0OJ425ob+FnFUBgsjj7dxXgZW1xQtYbtLE/6hvQZxqEwja6I/N2To2e+fv2LqzEZT409ZpDtA9/EQZNtp9BNPAGWtBgow7HaPjo5j8naayiJeGVXv+hBw/7dCK/Gw5exiGmfUt1qVRcLQmCfGaH1iXL+EEa1NjOjrjBHxRdJaFrMNWMaCR4v2qsnvvTX44Mg1zoRtO6Wl+9Kl62ab5GesVVrb4yfKBYfenfPiIMXDf/L3/hRznH110ks34NO81ELlGhlS+eb7Z3nC+FJsbd3jK3yu+E3i9fZRY4K9702Nsmc4UvuRPhtlmh/+5hSk8eelotCInAhPH86HZ1Z/kvsqf019+EjY9AcdYjiy
+
+
 State variable in Vue : Ref()
 1.ตัวแปรที่มีการกำหนดค่าเริ่มต้นด้วย ref()/reactive()  เมื่อค่าขอตัวแปรเปลี่ยนจะมีผลทำให้ ui update 
 2. ref()
