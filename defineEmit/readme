@@ -1,3 +1,6 @@
+Online Code
+https://play.vuejs.org/#eNqFU81u00AQfpXVXpwqaYwNp+JEhRIkOAACbixCrrNO3Npra39CUOQDCAl4Bk4cuCBxd95mH4XZ3Th2mqooP7bn++bzN7MzG/yoqsYrRfEZjkTCs0oiQaWqpoQhlBVVySW6WGb5HKW8LJA39hPzZFK8HmXDaVrvKC2UlExIlAYfCrFAEwSMAcEEn/Sw8BgzqPmliiUyK5kREOpyUMW8CE7QxmCAWtXxKs4VhXwLPjRQfZwfdvkj8x92Kvb9hypD79QbWlqrR1jku9ZAU+yjpEWVx5LaJkXLYAp+Tk0lZ2izcdbqGkW+QTpK2FHsew8prsnOFzpPgwnBrnLoSxsMTdCWQ7Cl+iY58nt+CMMjLAX0N80W4ytRMjhZWy7BSVlUWU75y8o0RhAMXpw2wXGelx+f25jkio7aeLKkyfUt8SuxNjGCX3EqKF9RgveYjPmCSgfP3ryga7jfg0U5Vzmw7wBfU1Hmynh0tMeKzcF2j2fdPrOjl7HFWzFbS8pEW5Qxas/O8gmGgby4o/TO7v3xg92Z19DF/aDfshvt2KM5TTNGZ0UmBTpcAMJ8nwOdM0QB3g8kYW74bXDSFxi889LAG3lp6L2HTciphD1RzLDuwTAaQaSbP3r7XTffdPNFb3/o5q9ufulmq5vf9h6+n/X2q25+ErZfAUHZ/Eks46fBYDf7ra67Dt3uGEcDa8EcxSck4XBOCR5aEhiyu3AsGraiu/wQ8m3KMBi5a4ja7INNurFHl0pK0D1P8iy5hknvXBM87R4i3xF3SXwKAf4fhbCvEPYUbuyO++D6HwMZvO0=
+
 1.Vue ไม่มีกลไกลคืนข้อมูลจาก child ไปให้กับ parentโดยตรง  
 2. Vue ใช้เทคนิคการส่ง “event” จาก child component  เพื่อกระตุ้น(triger) ให้ function ที่อยู่ใน parent component รับข้อมูลจาก child โดยคำสั่งใช้ defineEmits
 3. 
