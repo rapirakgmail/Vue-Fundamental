@@ -1,0 +1,22 @@
+0.คำสั่ง Compute ใน VUE : Get
+  คำสั่ง compute เทียบเท่ากับการสร้างตัวแปร state variable จากคำสั่ง ref()
+               const item = ref(0);
+              const  sum  = compute( { …. } )
+                                       
+  ช่วยในเรื่อง reusability ของ code ที่เกี่ยวข้องการคำนวณ 
+  ช่วยในเรื่องของ information hiding  มีคุณสมบัติคล้ายกับ property ใน c#
+  get  อ่านค่า	 
+  set   กำหนดค่า
+
+1.compute-1-src.zip 
+URL-CODE:
+https://play.vuejs.org/#eNqdU8Fu1DAQ/ZWRJdRduiTbBanSKq1UUJHgAAgqTr4syezWJXEs21kWRTkgceAP4AockDgikMzf+FOYOM02BVRVvUSeN2/mvYnHNTtSKlpXyOYsMakWyoJBW6lDLkWhSm2hBo3LCaRloSqLGTSw1GUBO1S0w2VaSmNBWCz24KBljqbjIToboEncKVBvCiip8oVFigCSTKzD4dIRwLuv3v3w7ot378KBwo/e/fK/P8AezHtaIiSZg/Wdoswwj2RVvEJ9wFnwxRnYtwop7HCK414rvoHu7Hq6s+vqnuoLXB0GqW/efe4tvKcvzKGuu7+82/3rpkni9pLOq14encD+rY42Gg2I49vTaLo/jmz5UGwwG83Gf5cOdbz77p0Lo37y7ud5v3/a7V6CBg37uZJ4e7tswqyhfViKVXRmSkmLVrdUztqNEjnqp8oK2hfOSK1zxdkiz8s3jwNmdYWTHk9PMX39H/zMbFqMs2caDeo1crbN2YVeoe3Sxy+e4IbO2yRdXJUT+4rkczRlXrUeO9r9SmZke8ALbh+F5yLk6sQcbyxK0w/VGm2ZTeBzRg/nwRWjX9i9G90LdVw2rPkDksFRRA==
+
+2.compute-2-src.zip 
+URL-CODE:
+https://play.vuejs.org/#eNqdU81uEzEQfpWRhdREhA0NnMIWCVAPcAAEHH3ospmkLl7b8s8SFO2BG2/AHd4ACWn7NvsonbWz21atqqo+zXzzeeYbz3jHXhmT1QHZkuWutMJ4cOiDecmVqIy2HnZgcT2DUlcmeFxBA2urKzigSwdccVVq5TwIj9UhHPXcydPpVXRxA/XaF5LQIeVkxxXABv1kCtHsT0/VEjOpN5OTIfujXbSyupABm9mYP+GLPX4yfbHPYqkVq5K4FITH6VLyIq/hqiFtXOXz9ALUOznEMrLwSB5AvhJ1NK6ZAF37t2v/de2frv0ZDXJ/d+3/7vwXHMJyoOVCUadQP6n0CmWmQvUV7RFnURhn4H8YJDfh5M+HWvMH1F3cr+7ivnVP7YjHp9jH8vn4QmzGvKOBrcUmO3Na0TLFOXLWj1hItB+MFzRQzpbDhDkrpNTf30XM24CzAS9Psfx2C37mtj3G2UeLDm2NnI0xX1janxQ+/vwet2SPQWo+SGLfEfyEtGyh15hor4NakewrvKj2bfwSQm2+uOOtR+WGpnqhcZcinzP6HG/uaP1S7rPs+bCDrLkAOuc6bA==
+
+
+3.compute-3-src.zip 
+URL-CODE:
+https://play.vuejs.org/#eNqdU8uK1EAU/ZVLgUy30yY9rTDQphtGGUEXKuMwq9rEdHVPxqQS6hFbQhaCC/9At+pCcCkK5d/Up3hTScV2lGGYTbiPk3NO1b1Vk6OyDCrNyJxEMhFpqUAypcsl5WleFkJBDYKtJ5AUeakVW0EDa1HksIc/7VFOeVJwqSBVLD+ARYsdTce71dk/1bNYncSKATamwfTwvq+rQsUZFr3UaDSGxRJqygEZlBa8kwmqONMM9jv6LqO8QX7PVMVql8cxbJhCPhcOdE6xp7vtfbWIxvNFYXcreB+YoF6ZIQQzgGiVVi74KwSw5os13635bM1bF2D6wZqf9td7OIC5h0UpR3dQ3cmLFcsCrvOXTCwocUekBNSbkmHa1TEPvVZ4A93Z9XRn19Dts3PhOn1WLp3cV2s+eRvv8AtzqOt+rk0The1a9fizo1M4vNUBcFyBKh6lW5zVbHwZuUtozTdrjDvXR2t+DL/vX9bwbqNwmBmZECVxP9bpJriQBceVd9tASbsoacbEs1KluD+UIG0nT0mcZcXrJ66mhGYTX0/OWfLqP/ULuW1rlDwXTDJRMUqGnooFbmHXPn7xlG0xHpo4Dp0h+ormCZNFpluPHeyB5iu0vYNzbh+7h5vyzak83irGpT9Ua9Rtt8NTgk/44RVH/2P3bnDPvwrS/Aa2PoQN
