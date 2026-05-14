@@ -1,3 +1,6 @@
+VDO
+https://youtu.be/2oF_mW7ITXw
+
 0.คำสั่ง Compute ใน VUE : Get
   คำสั่ง compute เทียบเท่ากับการสร้างตัวแปร state variable จากคำสั่ง ref()
                const item = ref(0);
