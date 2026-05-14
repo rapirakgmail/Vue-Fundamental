@@ -23,7 +23,6 @@ Folder:
 
 6. Virtual DOM กับ Hook Function
    -vdom-mount : #EP1. Virtual DOM(VDOM) & hooking function:Mounting Phase ->  https://youtu.be/wBZsJD2498U
-   -vdom-upate : #EP2. Virtual DOM(VDOM) & hooking function: Updating Phase ->  https://youtu.be/DBX12Q4KtJ0
-   
+   -vdom-upate : #EP2. Virtual DOM(VDOM) & hooking function:Updating Phase ->  https://youtu.be/DBX12Q4KtJ0
    
    
