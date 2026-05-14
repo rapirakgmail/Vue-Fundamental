@@ -1,3 +1,6 @@
+0. VDO
+https://youtu.be/J-VXYDf2tbs
+
 1. Mounting Phase: Component is inserted into the DOM
     onBeforeMount()/onMounted()
   Objective: กำหนดค่าเริ่มต้นของระบบ ,เปิดการเชื่อต่อกับ network 	
