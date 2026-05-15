@@ -19,8 +19,8 @@ Folder:
    - onmount-hook-problem : #EP3:สรุป Hook Function Component: memory leak problem ใน Mounting/Unmonting Phase -> https://youtu.be/J-VXYDf2tbs
 
 5.การใช้คำสั่ง Computed
-   - Compute-get : #EP1:คำสั่ง Computed get()  -> https://youtu.be/2oF_mW7ITXw
-
+   - Compute-get : #EP1:คำสั่ง Computed: get()  -> https://youtu.be/2oF_mW7ITXw
+   - Compute-set : #EP2:คำสั่ง Computed: set()  -> https://youtu.be/0T2sU60wKMk
 6. Virtual DOM กับ Hook Function
    -vdom-mount : #EP1. Virtual DOM(VDOM) & hooking function:Mounting Phase ->  https://youtu.be/wBZsJD2498U
    -vdom-upate : #EP2. Virtual DOM(VDOM) & hooking function:Updating Phase ->  https://youtu.be/DBX12Q4KtJ0
