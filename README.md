@@ -22,7 +22,8 @@ Folder:
    - Compute-get : #EP1:คำสั่ง Computed: get()  -> https://youtu.be/2oF_mW7ITXw
    - Compute-set : #EP2:คำสั่ง Computed: set()  -> https://youtu.be/0T2sU60wKMk
 6. Virtual DOM กับ Hook Function
-   -vdom-mount : #EP1. Virtual DOM(VDOM) & hooking function:Mounting Phase ->  https://youtu.be/wBZsJD2498U
-   -vdom-upate : #EP2. Virtual DOM(VDOM) & hooking function:Updating Phase ->  https://youtu.be/DBX12Q4KtJ0
+   - vdom-mount : #EP1. Virtual DOM(VDOM) & hooking function:Mounting Phase ->  https://youtu.be/wBZsJD2498U
+     
+   - vdom-upate : #EP2. Virtual DOM(VDOM) & hooking function:Updating Phase ->  https://youtu.be/DBX12Q4KtJ0
    
    
