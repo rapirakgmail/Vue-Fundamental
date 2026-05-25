@@ -27,10 +27,11 @@ Folder:
    - vdom-upate : #Virtual DOM&hooking function-Ep2(ตอน Updating Phase ใน lifecycle) ->  https://youtu.be/DBX12Q4KtJ0
 
 7: Pinia Lib
-    - pina-intro : #การshareข้อมูลระหว่าง component ด้วย pinia lib-EP1(ตอน:pinia storage เบื้องต้นและข้อระวังการใช้งาน) -> https://youtu.be/AsYJdM5lmYc
-    - pina-createapp : #การshareข้อมูลระหว่าง component ด้วย pinia lib-EP2(ตอน:ตย.การสร้าง app ที่่ใช้ Pinia lib) -> https://youtu.be/t5f8AQvzygQ
-  
+   - pina-intro : #การshareข้อมูลระหว่าง component ด้วย pinia lib-EP1(ตอน:pinia storage เบื้องต้นและข้อระวังการใช้งาน) -> https://youtu.be/AsYJdM5lmYc
+   - pina-createapp : #การshareข้อมูลระหว่าง component ด้วย pinia lib-EP2(ตอน:ตย.การสร้าง app ที่่ใช้ Pinia lib) -> https://youtu.be/t5f8AQvzygQ
+      
+      
 8. Router 4
-    - page-route-ep1 : #การทำmenuบนApp ด้วยVue Router 4–#EP1(ตอน:หลักการ&กลไกลการ implement page routing routine ของ SPA) -> https://youtu.be/s0QKh778MIg
-  
+   - page-route-ep1 : #การทำmenuบนApp ด้วยVue Router 4–#EP1(ตอน:หลักการ&กลไกลการ implement page routing routine ของ SPA) -> https://youtu.be/s0QKh778MIg
+   - 
 
