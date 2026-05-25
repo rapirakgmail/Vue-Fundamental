@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <a href="https://jsonplaceholder.typicode.com/">JsonHolder</a>
+  <a href="https://www.bing.com/">bing</a>
+  <form action="/login" method="post">
+    <input type="text" name="username">
+    <button type="submit">Login</button>
+  </form>
+
+<script>
+  
+ function jsonHandle(event) {
+    const target = event.target;
+    const url = target.getAttribute("href");      
+    document.body.innerHTML +=  "<p>jsonHandle :Current page = " + url + "</p>";
+  }
+
+  function bingHandle(event) {
+    const target = event.target;
+    const url = target.getAttribute("href");      
+    document.body.innerHTML +=  "<p>bingHandle:Current page = " + url + "</p>";
+  }
+
+  function AnchorTagHandle( event ) {
+      event.preventDefault(); //
+      const target = event.target;
+      const url = target.getAttribute("href");      
+      console.log(  "Intercept href =",url);
+      if ( url ==="https://jsonplaceholder.typicode.com/") {
+        jsonHandle(event);
+      }
+      else if (url === "https://www.bing.com/") {
+        bingHandle(event);
+      }
+  }
+
+  // intercept on tag click 
+  document.addEventListener("click", function(event) {
+    const target = event.target;
+    //check Anchor tag
+    if (target.tagName === "A") {
+      AnchorTagHandle(event);
+    }
+  } );
+
+  
+
+  // intercept form submit 
+  document.addEventListener("submit",function ( event ) {
+      const target = event.target;
+      event.preventDefault();
+      
+      console.log("Intercept form submit");
+      console.log("action =", target.action); // อ่าน action
+      console.log("method =", target.method); // อ่าน method
+
+      const formData = new FormData(target); // อ่านข้อมูล form
+      console.log("username =", formData.get("username"));
+      document.body.innerHTML +=  "<p>Post page = " 
+                              + target.action 
+                              +" ("
+                              +formData.get("username")
+                              +")"
+                              + "</p>";
+   } );
+  
+  </script>
+ 
+</body>
+</html>
