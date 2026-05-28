@@ -32,6 +32,6 @@ Folder:
       
       
 8. Router 4
-   - page-route-ep1 : #การทำmenuบนApp ด้วยVue Router 4–#EP1(ตอน:หลักการ&กลไกลการ implement page routing routine ของ SPA) -> https://youtu.be/s0QKh778MIg
-   - 
+   - page-route-ep1 :#การทำmenuบนApp ด้วยVue Router 4–#EP1(ตอน:หลักการ&กลไกลการ implement page routing routine ของ SPA) -> https://youtu.be/s0QKh778MIg
+   - page-route-ep2 :#การทำmenuบนApp ด้วยVue Router 4–#EP2ตอน:การใช้คำสั่ง createRouter ,RouterLink, RouterView ทำmenu) ->https://youtu.be/s0tI8QYurh8
 
