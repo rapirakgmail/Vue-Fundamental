@@ -1,0 +1,24 @@
+1.Online code
+  https://onecompiler.com/vue/44sqpsafp
+
+2. https://youtu.be/s0QKh778MIg
+
+3. หลักในการใช้ Path & Query String parameter
+
+Path Parameter:
+Data state:  ระบุ “resource identity” (ฉันกำลังดูข้อมูลอะไร )
+	Url: 
+                     /user/1 			แสดงข้อมูล user ที่มี id/code = 1	
+                     /user/2 			 แสดงข้อมูล user ที่มี id /code = 2
+	         /product/99		 แสดงข้อมูล product ที่มี id /code = 99
+
+Query string Parameter:
+UI state  : ระบุ “optional modifiers” (สถานะการแสดงผลของหน้า) เช่น filter , sort , paination
+     Url: 
+          /CustomerList?page=1	                       แสดงข้อมูล CustomerList หน้าที่ 1
+          /CustomerList?page=2                           แสดงข้อมูล CustomerList หน้าที่ 2     
+        /products?category=shoe&sort=asc    แสดงข้อมูล product ที่ category=shoe และเรียงจากน้อยไปมาก
+          /products?search=iphone                      แสดงข้อมูล product ที่เป็นผลลัพธ์ของการค้น iphone
+          /customer?mode=view	                       แสดงหน้าจอ customer เพื่อ view customer data
+         /customer?mode=edit                           แสดงหน้าจอ customer เพื่อ edit  customer data
+
